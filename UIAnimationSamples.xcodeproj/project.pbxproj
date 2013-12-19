@@ -24,6 +24,10 @@
 		A4673D0017E59E4600E66D08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4673CD817E59E4600E66D08 /* Foundation.framework */; };
 		A4673D0817E59E4600E66D08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4673D0617E59E4600E66D08 /* InfoPlist.strings */; };
 		A4673D0B17E59E4600E66D08 /* UIAnimationSamplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4673D0A17E59E4600E66D08 /* UIAnimationSamplesTests.m */; };
+		A4673D1617E59EF500E66D08 /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4673D1517E59EF500E66D08 /* UIView+Animation.m */; };
+		A4673D1817E5A59800E66D08 /* arrow1.png in Resources */ = {isa = PBXBuildFile; fileRef = A4673D1717E5A59800E66D08 /* arrow1.png */; };
+		A4673D1B17E5B92200E66D08 /* AnimationCurvePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = A4673D1A17E5B92200E66D08 /* AnimationCurvePicker.m */; };
+		A4673D1D17E5B96F00E66D08 /* AnimationCurviePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4673D1C17E5B96F00E66D08 /* AnimationCurviePicker.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +64,12 @@
 		A4673D0717E59E4600E66D08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A4673D0917E59E4600E66D08 /* UIAnimationSamplesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAnimationSamplesTests.h; sourceTree = "<group>"; };
 		A4673D0A17E59E4600E66D08 /* UIAnimationSamplesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAnimationSamplesTests.m; sourceTree = "<group>"; };
+		A4673D1417E59EF500E66D08 /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		A4673D1517E59EF500E66D08 /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		A4673D1717E5A59800E66D08 /* arrow1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow1.png; sourceTree = "<group>"; };
+		A4673D1917E5B92200E66D08 /* AnimationCurvePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationCurvePicker.h; sourceTree = "<group>"; };
+		A4673D1A17E5B92200E66D08 /* AnimationCurvePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationCurvePicker.m; sourceTree = "<group>"; };
+		A4673D1C17E5B96F00E66D08 /* AnimationCurviePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationCurviePicker.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +99,7 @@
 		A4673CCA17E59E4600E66D08 = {
 			isa = PBXGroup;
 			children = (
+				A4673D1717E5A59800E66D08 /* arrow1.png */,
 				A4673CDC17E59E4600E66D08 /* UIAnimationSamples */,
 				A4673D0317E59E4600E66D08 /* UIAnimationSamplesTests */,
 				A4673CD517E59E4600E66D08 /* Frameworks */,
@@ -122,9 +133,14 @@
 				A4673CE517E59E4600E66D08 /* FTAppDelegate.h */,
 				A4673CE617E59E4600E66D08 /* FTAppDelegate.m */,
 				A4673CEE17E59E4600E66D08 /* MainStoryboard_iPhone.storyboard */,
+				A4673D1C17E5B96F00E66D08 /* AnimationCurviePicker.xib */,
 				A4673CF117E59E4600E66D08 /* MainStoryboard_iPad.storyboard */,
 				A4673CF417E59E4600E66D08 /* FTViewController.h */,
 				A4673CF517E59E4600E66D08 /* FTViewController.m */,
+				A4673D1417E59EF500E66D08 /* UIView+Animation.h */,
+				A4673D1517E59EF500E66D08 /* UIView+Animation.m */,
+				A4673D1917E5B92200E66D08 /* AnimationCurvePicker.h */,
+				A4673D1A17E5B92200E66D08 /* AnimationCurvePicker.m */,
 				A4673CDD17E59E4600E66D08 /* Supporting Files */,
 			);
 			path = UIAnimationSamples;
@@ -241,6 +257,8 @@
 				A4673CED17E59E4600E66D08 /* Default-568h@2x.png in Resources */,
 				A4673CF017E59E4600E66D08 /* MainStoryboard_iPhone.storyboard in Resources */,
 				A4673CF317E59E4600E66D08 /* MainStoryboard_iPad.storyboard in Resources */,
+				A4673D1817E5A59800E66D08 /* arrow1.png in Resources */,
+				A4673D1D17E5B96F00E66D08 /* AnimationCurviePicker.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +296,8 @@
 				A4673CE317E59E4600E66D08 /* main.m in Sources */,
 				A4673CE717E59E4600E66D08 /* FTAppDelegate.m in Sources */,
 				A4673CF617E59E4600E66D08 /* FTViewController.m in Sources */,
+				A4673D1617E59EF500E66D08 /* UIView+Animation.m in Sources */,
+				A4673D1B17E5B92200E66D08 /* AnimationCurvePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

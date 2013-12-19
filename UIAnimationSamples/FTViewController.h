@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AnimationCurvePicker.h"
 
-@interface FTViewController : UIViewController
+@interface FTViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+{
+    NSMutableArray *curveList;
+    int selectedCurveIndex;
+    UIView *pickerView;
+}
 
 @end
